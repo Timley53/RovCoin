@@ -4,18 +4,25 @@ import Hero2Img from './../../resources/441-removebg-preview.png'
 
 function Hero() {
   return (
-    <div className='flex justify-between   pt-[10rem] md:pt-[8rem] items-center w-[80%] mx-auto first-letter:
+    <div className='flex justify-between pt-[10rem] md:pt-[8rem] items-center w-[80%] mx-auto first-letter:
     md:flex-col md:w-[90%] 
     '>
         <div className="crypto-matters w-[45%] md:w-[95%] text-white  flex flex-col  " >
 
+
+    <div className="head leading-3">
             <h1 className='font-bold text-[#08ff10]'
         >Crypto Matters:</h1>
-        <h1 className='-mt-4'>
+
+
+        <h1 className='leading-8'>
             The Importance of Cryptocurrency
         </h1>
+    </div>
 
-        <p className='w-[80%]'>
+        
+
+        <p className='w-[80%] mt-6'>
             Cryptocurrency is a revolutionary digital asset that has the potential to change the financial world as we know it.
             You'll learn about the different types of cryptocurrency.
         </p>

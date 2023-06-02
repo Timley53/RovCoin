@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import NavIMg from './../../resources/logo-no-background.png'
+import NavIMg from './../../resources/icons8-blockchain-100.png'
 import {AiOutlineMenu} from 'react-icons/ai'
 import {ImCross} from 'react-icons/im'
 import RovCoinContext from '../Utils'
@@ -20,14 +20,22 @@ console.log(int, 'jsdjsdjk');
 
 
   return (
-    <nav className={`flex w-[100%] mx-auto sm:w-full px-3 py-5 md:py-4 top-0 justify-between fixed ${ !int ? 'w-[100%] mx-auto backdrop-blur-md bg-[#00000018] ': 'static '} z-50 transition-all`}>
+    <nav className={`flex w-[100%] mx-auto sm:w-full px-3 py-5 md:py-3 top-0 justify-between items-center fixed ${ !int ? 'w-[100%] mx-auto backdrop-blur-md bg-[#00000018] ': 'static '} z-50 transition-all`}>
 
-
+    <div className="logo flex items-center justify-center text-[#08ff10] h-[60px]
+         md:w-[15%] ml-3" >
+    
+    
         <img src={NavIMg}
          alt={'NavIMg'}
-         className='w-[80px] h-[50px]
-         md:w-[15%] ml-6 md:h-[20%] object-contain 
-         ' />
+         className='w-[40px] h-[50px]
+          ml-6 md:ml-3 md:w-[30px]  object-contain 
+        ' />
+    <p className='ml-1 italic'>
+        RovCoin
+    </p>
+
+    </div>
 
 <button className={`hidden md:block text-2xl ${openMenu ? 'text-black' :'text-white'}  z-10  p-2`}
 onClick={()=> setOpenMenu(!openMenu)}
