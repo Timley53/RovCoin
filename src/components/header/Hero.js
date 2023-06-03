@@ -11,11 +11,11 @@ function Hero() {
 
 
     <div className="head leading-3">
-            <h1 className='font-bold sm::text-2xl text-[#08ff10]'
+            <h1 className='font-bold sm::text-3xl text-[#08ff10]'
         >Crypto Matters:</h1>
 
 
-        <h1 className='leading-8'>
+        <h1 className='leading-8 sm:text-2xl'>
             The Importance of Cryptocurrency
         </h1>
     </div>

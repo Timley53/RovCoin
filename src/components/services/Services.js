@@ -33,9 +33,9 @@ function Services() {
   return (
     <div className='w-[80%] text-white text-center mx-auto p-4 md:text-left'>
 
-        <h1 >Our Services Mission</h1>
+        <h1  className='sm:text-3xl '>Our Services Mission</h1>
 
-        <p className='mt-16'> 
+        <p className='mt-16 sm:mt-8'> 
             Get a glimpse into the future of finance with demo our video. Watch as our expert team showcases the potential of cryptocurrency. From easy use interfaces to advanced security features, you see why we are the trusted choice for investors.
         </p>
 

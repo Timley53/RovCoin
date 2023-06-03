@@ -7,7 +7,7 @@ function FirstHand() {
     <div className='flex w-[80%] text-white my-12  mx-auto md:flex-col'>
 
         <div className="text w-[50%] md:w-[100%] mx-auto ">
-            <h1>
+            <h1 className='sm:text-3xl my-3'>
                 Get A First-Hand Look
             </h1>
 
