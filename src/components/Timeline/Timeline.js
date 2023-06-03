@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component'
 function Timeline() {
   return (
     <div className='mx-auto flex flex-col  items-center justify-center text-white text-center w-[90%] py-14'>
-        <h1>
+        <h1 className='sm:text-3xl'>
             Ziptocoin Timeline 
         </h1>
 

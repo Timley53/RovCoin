@@ -31,7 +31,7 @@ function Faq() {
  return (
     <div className='pb-20 w-[80%] text-white mx-auto'>
 
-        <h1 className='text-center'>Our Frequently Asked Questions</h1>
+        <h1 className='text-center sm:text-2xl'>Our Frequently Asked Questions</h1>
 
         <p className='text-center pb-12'>
             Cryptocurrency is a revolutionary digital asset that has the potential to change the financial world as we know it. By using decentralized technology and advanced encryption methods, cryptocurrency allow for secure.

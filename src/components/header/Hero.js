@@ -11,7 +11,7 @@ function Hero() {
 
 
     <div className="head leading-3">
-            <h1 className='font-bold text-[#08ff10]'
+            <h1 className='font-bold sm::text-2xl text-[#08ff10]'
         >Crypto Matters:</h1>
 
 
@@ -31,12 +31,13 @@ function Hero() {
 
     <div className="hero-btn mt-6 flex items-center">
 
-<button className='p-3 border text-sm border-[#08ff10] rounded-full bg-[#08ff10]  my-4 hover:bg-transparent transition-all'>
+<button className='p-3 border text-sm border-[#08ff10] rounded-full text-blue-950 font-semibold  bg-[#08ff10] my-4 hover:text-[#08ff10] hover:bg-transparent transition-all'>
     WHITEPAPER
 </button>
 
 
-<button className='border border-[#08ff10]  p-3 rounded-full mx-6 hover:bg-[#08ff10] transition-all' >
+
+<button className='border border-[#08ff10]  p-3 rounded-full mx-6 hover:text-blue-950 font-semibold text-[#08ff10]  hover:bg-[#08ff10] transition-all' >
     BUY TOKEN NOW
 </button>
 

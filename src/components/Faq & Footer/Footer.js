@@ -15,7 +15,7 @@ function Footer() {
                 <input type="text" className='p-2 px-3 rounded-l-md bg-transparent '  placeholder='Input your mail'/>
 
 
-                <button className="bg-[#08ff10] rounded-full px-8 hover:border-2 hover:bg-transparent transition-all">
+                <button className="bg-[#08ff10] text-blue-950 font-semibold hover:text-white rounded-full px-8 hover:border-2 hover:bg-transparent transition-all">
                     Subscribe
                 </button>
             </div>
