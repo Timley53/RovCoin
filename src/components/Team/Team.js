@@ -12,7 +12,7 @@ function Team() {
   return (
     <div className="team w-[90%] mx-auto text-white text-center md:text-left my-8 py-12">
 
-    <h1 className='w-[80%] mx-auto'>Our Core Team</h1>
+    <h1 className='w-[80%] mx-auto sm:text-3xl sm:my-4'>Our Core Team</h1>
 
 
     <p className='w-[80%] mx-auto'>

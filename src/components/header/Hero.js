@@ -11,7 +11,7 @@ function Hero() {
 
 
     <div className="head leading-3">
-            <h1 className='font-bold sm::text-3xl text-[#08ff10]'
+            <h1 className='font-bold sm:text-3xl text-[#08ff10]'
         >Crypto Matters:</h1>
 
 
