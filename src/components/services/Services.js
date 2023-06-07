@@ -31,7 +31,7 @@ const missionDiagramDetails =[
 
 function Services() {
   return (
-    <div className='w-[80%] text-white text-center mx-auto p-4 md:text-left'>
+    <div className='w-[90%] text-white text-center mx-auto p-4 md:text-left'>
 
         <h1  className='sm:text-3xl '>Our Services Mission</h1>
 

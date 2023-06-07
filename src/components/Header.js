@@ -8,7 +8,7 @@ function Header() {
   const {myRef} = useContext(RovCoinContext)
 
   return (
-    <div ref={myRef} className='h-[100vh]'>
+    <div ref={myRef} className='h-auto'>
         <Nav/>
         <Hero/>
     </div>

@@ -6,14 +6,23 @@ import 'react-vertical-timeline-component'
 
 function Timeline() {
   return (
+
+
     <div className='mx-auto flex flex-col  items-center justify-center text-white text-center w-[90%] py-14'>
-        <h1 className= 'md:text-left md:w-[80%]   sm:text-3xl '>
+
+
+      <div className="text md:w-[90%]">
+
+        <h1 className= 'md:text-left md:w-[90%] sm:text-3xl '>
             Ziptocoin Timeline 
         </h1>
 
-        <p className='w-[80%] md:text-left'>
+        <p className='w-[100%] self-start md:w-[80%] md:text-left'>
             Cryptocurrency is a revolutionary digital asset that has the potential to change the financial world as we know it. By using decentralized tecehnology and advanced encryption method.
         </p>
+
+      </div>
+
 
 
        

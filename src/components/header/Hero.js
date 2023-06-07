@@ -4,7 +4,7 @@ import Hero2Img from './../../resources/441-removebg-preview.png'
 
 function Hero() {
   return (
-    <div className='flex justify-between pt-[10rem] md:pt-[8rem] items-center w-[80%] mx-auto first-letter:
+    <div className='flex justify-between py-[10rem] md:pt-[8rem] items-center w-[90%] mx-auto first-letter:
     md:flex-col md:w-[90%] 
     '>
         <div className="crypto-matters w-[45%] md:w-[95%] text-white  flex flex-col  " >
@@ -22,7 +22,7 @@ function Hero() {
 
         
 
-        <p className='w-[80%] mt-6'>
+        <p className='w-[80%] md:w-[90%] mt-6'>
             Cryptocurrency is a revolutionary digital asset that has the potential to change the financial world as we know it.
             You'll learn about the different types of cryptocurrency.
         </p>
@@ -48,7 +48,7 @@ function Hero() {
 
         <div className="hero-img w-[50%]  items-center justify-center md:w-[100%]">
             <img src={Hero2Img} alt='Blockahin Image' 
-            className='w-[850px] md:[100%] md:object-cover  object-contain mx-auto' />
+            className='w-[850px] md:w-[100%] md:object-cover  object-contain mx-auto' />
         </div>
         
     </div>

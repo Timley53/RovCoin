@@ -20,7 +20,7 @@ console.log(int, 'jsdjsdjk');
 
 
   return (
-    <nav className={`flex w-[100%] mx-auto sm:w-full px-3 py-5 md:py-3 top-0 justify-between items-center fixed ${ !int ? 'w-[100%] mx-auto backdrop-blur-md bg-[#00000018] ': 'static '} z-50 transition-all`}>
+    <nav className={`flex w-[100%] mx-auto sm:w-full px-3 py-3 md:py-3 top-0 justify-between items-center   ${ int ? 'w-[100%] fixed mx-auSto backdrop-blur-md bg-[#00000022] ': 'static top-0'} z-50 transition-all`}>
 
     <div className="logo flex items-center justify-center text-[#08ff10] h-[60px]
          md:w-[15%] ml-3" >

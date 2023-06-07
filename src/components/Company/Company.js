@@ -12,11 +12,12 @@ function Company() {
 
 
   return (
-    <div  className={`flex md:flex-col pt-2  md:mt-32  xs:mt-30   h-full items-center w-[80%] mx-auto  p-4 text-white  transition-all duration-[5s]`}>
+    <div ref={myRef}  className={`flex md:flex-col pt-1  h-full items-center w-[90%] mx-auto  p-4 text-white  transition-all duration-[5s]`}>
+
         <div className="w-[50%] md:w-[100%]">
     <h1 className='sm:text-3xl sm:my-3'>About The Rovcoin</h1>
 
-    <p> 
+    <p className='md:w-[90%]'> 
         Cryptocurrency is a revolutionary digital asset that has the potential to change the financial world as we know it.By using decentralized tecehnology and advanced encryption methods.
     </p>
 

@@ -19,12 +19,20 @@ function App() {
 
 useEffect(() => {
   const observer = new IntersectionObserver(([Entry])=>{
-    setInt(Entry.isIntersecting)
-    console.log(int);
+    if(Entry.boundingClientRect.top < 1){
+      
+          setInt(true)
+          console.log(Entry);
+          
+        } else{
+          
+          setInt(false)
+    }
     
 
   }, {
-    rootMargin: '-100px',
+    rootMargin: '',
+    triggerOnce: false,
     
   })
 
@@ -39,7 +47,7 @@ useEffect(() => {
 
     <RovCoinContext.Provider value={{myRef, int}}>
 
-    <div className="App ">
+    l<div className="App flex flex-col ">
       
       <Header/>
       <Company/>

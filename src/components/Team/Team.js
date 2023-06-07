@@ -12,10 +12,10 @@ function Team() {
   return (
     <div className="team w-[90%] mx-auto text-white text-center md:text-left my-8 py-12">
 
-    <h1 className='w-[80%] mx-auto sm:text-3xl sm:my-4'>Our Core Team</h1>
+    <h1 className='w-[80%] md:w-[90%] mx-auto sm:text-3xl sm:my-4'>Our Core Team</h1>
 
 
-    <p className='w-[80%] mx-auto'>
+    <p className='w-[80%] md:w-[90%] mx-auto'>
         Our Cryptocurrency team is a passionate and dedicated group of proffessionals with a wealth of experience in finances, technology, and blockchain. We are commited providing our clients with the knowledge and resources they need to succeed in rapidly evolving world of Cryptocurrency. 
     </p>
 

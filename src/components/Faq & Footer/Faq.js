@@ -57,9 +57,9 @@ function Accordion({state, setState, question, answer}){
 
 
     return(
-        <article className={`w-[550px] md:w-[350px]  border border-[#08ff10] mx-auto text-white ${state ? 'h-[170px] md:h-[240px] transition-all': 'h-[40px] md:h-[48px]  transition-all'} overflow-hidden rounded-3xl transition-all duration-700 my-4`}>
+        <article className={`w-[550px] md:w-[350px]  border border-[#08ff10] mx-auto text-white ${state ? 'h-[170px] md:h-[240px] transition-all': 'h-[58px] md:h-[58px]  transition-all'} overflow-hidden rounded-3xl transition-all duration-700 my-4`}>
 
-<button className='w-full bg-[#08ff10] text-left p-2 px-3 flex justify-between items-center h-[40px] md:h-[48px] text-blue-950 rounded-2xl font-bold '
+<button className='w-full bg-[#08ff10] text-left p-3 py-7 px-3 flex justify-between items-center h-[50px] md:h-[48px] text-blue-950 rounded-2xl font-bold '
 onClick={()=> setState(!state)}
 
 >
