@@ -12,7 +12,7 @@ function Company() {
 
 
   return (
-    <div ref={myRef}  className={`flex md:flex-col pt-1  h-full items-center w-[90%] mx-auto  p-4 text-white  transition-all duration-[5s]`}>
+    <div  className={`flex md:flex-col pt-1  h-full items-center w-[90%] mx-auto  p-4 text-white  transition-all duration-[5s]`}>
 
         <div className="w-[50%] md:w-[100%]">
     <h1 className='sm:text-3xl sm:my-3'>About The Rovcoin</h1>

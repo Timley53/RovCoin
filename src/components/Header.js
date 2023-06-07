@@ -9,7 +9,6 @@ function Header() {
 
   return (
     <div ref={myRef} className='h-auto'>
-        <Nav/>
         <Hero/>
     </div>
   )

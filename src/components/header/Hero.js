@@ -4,7 +4,7 @@ import Hero2Img from './../../resources/441-removebg-preview.png'
 
 function Hero() {
   return (
-    <div className='flex justify-between py-[10rem] md:pt-[8rem] items-center w-[90%] mx-auto first-letter:
+    <div className='flex justify-between py-[5rem] md:py-[3rem] items-center w-[90%] mx-auto first-letter:
     md:flex-col md:w-[90%] 
     '>
         <div className="crypto-matters w-[45%] md:w-[95%] text-white  flex flex-col  " >
@@ -46,7 +46,7 @@ function Hero() {
 
             </div>
 
-        <div className="hero-img w-[50%]  items-center justify-center md:w-[100%]">
+        <div className="hero-img w-[50%]  items-center justify-center md:w-[100%] md:py-[4rem]">
             <img src={Hero2Img} alt='Blockahin Image' 
             className='w-[850px] md:w-[100%] md:object-cover  object-contain mx-auto' />
         </div>

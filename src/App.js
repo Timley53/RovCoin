@@ -10,6 +10,7 @@ import Services from './components/services/Services';
 import RovCoinContext from './components/Utils'
 import { useEffect, useRef, useState } from 'react';
 import Footer from './components/Faq & Footer/Footer';
+import Nav from './components/header/Nav';
 
 function App() {
   const [int, setInt] = useState(false)
@@ -19,20 +20,16 @@ function App() {
 
 useEffect(() => {
   const observer = new IntersectionObserver(([Entry])=>{
-    if(Entry.boundingClientRect.top < 1){
-      
-          setInt(true)
-          console.log(Entry);
-          
-        } else{
-          
-          setInt(false)
-    }
+
+    console.log(Entry.boundingClientRect.top);
+    console.log(Entry.isIntersecting);
+    
+    setInt(Entry.isIntersecting)
+    
     
 
   }, {
     rootMargin: '',
-    triggerOnce: false,
     
   })
 
@@ -47,8 +44,8 @@ useEffect(() => {
 
     <RovCoinContext.Provider value={{myRef, int}}>
 
-    l<div className="App flex flex-col ">
-      
+    l<div className="App flex flex-col m-0 p-0">
+      <Nav/>
       <Header/>
       <Company/>
       <Services/>
