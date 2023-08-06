@@ -5,14 +5,21 @@ import {HiPhoneIncoming} from 'react-icons/hi'
 
 function Footer() {
   return (
-    <div className='w-full p-8 py-16  bg-[#100b3ed4] flex md:flex-col'>
+    <div className='w-full p-8 md:p-0 py-16 bg-[#100b3ed4] flex md:flex-col md:items-center'>
 
-        <div className="input-field  w-[50%] p-8 flex text-white  flex-col items-start justify-start md:w-[80%] md:p-2">
+
+        <div className="input-field w-[50%] p-8  flex text-white  flex-col items-start justify-start self-start md:w-[100%] md:p-2 ">
+
+
 
     <h2 className='text-lg my-4'>Join Our Newsletter.</h2>
 
+
             <div className="flex border-2  rounded-full">
+
+
                 <input type="text" className='p-2 px-3 rounded-l-md bg-transparent '  placeholder='Input your mail'/>
+
 
 
                 <button className="bg-[#08ff10] text-blue-950 font-semibold hover:text-white rounded-full px-8 hover:border-2 hover:bg-transparent transition-all">
@@ -21,7 +28,10 @@ function Footer() {
             </div>
         </div>
 
-        <div className="contact w-[50%]  text-white flex items-center flex-col justify-center md:w-[80%] md:p-2 md:mt-8">
+
+
+        <div className="contact w-[50%]  text-white flex items-center justify-center  md:items-start flex-col md:justify-start md:w-[80%] md:p-2 md:mt-8 ">
+
             <h2>Contact</h2>
             <div className="flex my-6">
 

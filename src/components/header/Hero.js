@@ -4,7 +4,7 @@ import Hero2Img from './../../resources/441-removebg-preview.png'
 
 function Hero() {
   return (
-    <div className='flex justify-between py-[5rem] md:py-[3rem] items-center w-[90%] mx-auto first-letter:
+    <div className='flex justify-between py-[5rem] md:py-[3rem] md:mt-4 items-center w-[90%] mx-auto first-letter:
     md:flex-col md:w-[90%] 
     '>
         <div className="crypto-matters w-[45%] md:w-[95%] text-white  flex flex-col  " >

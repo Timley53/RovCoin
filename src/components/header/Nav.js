@@ -20,7 +20,7 @@ function Nav() {
 
 
   return (
-    <nav className={`flex w-[100%] my-0 mx-auto sm:w-full px-3 py-3 md:py-3   justify-between items-center   ${ !int ? ' fixed md:top-0 backdrop-blur-md bg-[#00000022] ': 'static top-0 md:top-[0]'} z-50 transition-all`}>
+    <nav className={`flex w-[100%] my-0 mx-auto sm:w-full px-3 py-2 md:py-3   justify-between items-center ${'fixed  md:top-0 top-0 bg-rov-blue'} z-50 transition-all`}>
 
     <div className="logo flex items-center justify-center text-[#08ff10] h-[60px]
          md:w-[15%] ml-3" >
